@@ -9,6 +9,16 @@
 wrap:hover {
   background-color: #eee;
 }
+.stopProgation{
+  width: 100%;
+  height: 100px;
+  background-color: yellowgreen;
+}
 .wrapHover {
   background-color: khaki;
+}
+.textStyle {
+  width: 100%;
+  height: 100px;
+  background-color: yellow;
 }

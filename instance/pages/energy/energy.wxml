@@ -1,4 +1,11 @@
 <!--pages/energy/energy.wxml-->
 <text>小程序开发</text>
 <view class="wrap" hover-class="wrapHover">点击样式</view>
-<view class="stopProgation" hover-stop-propagation></view>
+<view class="stopProgation" hover-stop-propagation>
+  <view>冒泡测试</view>
+</view>
+<view class="textStyle">
+  <text decode>情深一往付琵琶&nbsp;</text>
+  <text space="ensp">精灵无忧隔云涯    \n</text>
+  <text>因剑而生 无人敢倾轧</text>
+</view>
