@@ -1,0 +1,4 @@
+<!--pages/energy/energy.wxml-->
+<text>小程序开发</text>
+<view class="wrap" hover-class="wrapHover">点击样式</view>
+<view class="stopProgation" hover-stop-propagation></view>

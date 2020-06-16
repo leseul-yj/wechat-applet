@@ -1,0 +1,14 @@
+/* pages/energy/energy.wxss */
+    
+.wrap {
+  width: 100%;
+  height: 100px;
+  background-color: darkcyan;
+}
+/* 没有用 */
+wrap:hover {
+  background-color: #eee;
+}
+.wrapHover {
+  background-color: khaki;
+}
