@@ -9,3 +9,8 @@
   <text space="ensp">精灵无忧隔云涯    \n</text>
   <text>因剑而生 无人敢倾轧</text>
 </view>
+<view class="imgStyle">
+  <image mode="widthFix" src="http://shp.qpic.cn/ishow/2735052109/1590023036_84828260_14837_sProdImgNo_2.jpg/0"></image>
+  <image mode="heightFix" src="http://shp.qpic.cn/ishow/2735042809/1588039188_84828260_15570_sProdImgNo_7.jpg/0"></image>
+  <image show-menu-by-longpress src="http://shp.qpic.cn/ishow/2735032409/1585014369_84828260_11705_sProdImgNo_7.jpg/0"></image>
+</view>

@@ -33,4 +33,7 @@
 1. view 相当于div 组件没有hover事件 但是有点击的hover-class hover-class后面的样式一定要在wxss中写 不然会报错
 2. hover-stop-propagation 放在子元素中可以阻止向父元素冒泡
 3. text相当于span标签 text标签可以选中文字 decode 可以对nbsp &lt解码
+4. image相当于img标签 
++ mode属性设置图像比例（heightFix，widthFix）或者位置 
++ show-menu-by-longpress 长按显示显示图片菜单（如识别图片中的二维码）
 

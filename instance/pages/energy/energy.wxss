@@ -22,3 +22,12 @@ wrap:hover {
   height: 100px;
   background-color: yellow;
 }
+.imgStyle{
+  padding: 10px;
+}
+.imgStyle image{
+  display: block;
+  margin: 10px auto;
+  width: 100%;
+  
+}
