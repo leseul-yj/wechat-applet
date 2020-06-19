@@ -37,3 +37,8 @@
 + mode属性设置图像比例（heightFix，widthFix）或者位置 
 + show-menu-by-longpress 长按显示显示图片菜单（如识别图片中的二维码）
 
+## 导航超链接 navigator
+1. navigator块元素
+2. 可以跳转到其他的模块以及其他的小程序应用，但是不能跳转到其他的网站，例如百度
+3. 
+
