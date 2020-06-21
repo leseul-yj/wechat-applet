@@ -31,3 +31,17 @@ wrap:hover {
   width: 100%;
   
 }
+.scrollStyle {
+  display: flex;
+  width: 100%;
+}
+.scrollStyle .scrollView {
+  padding: 10px;
+}
+.scrollYStyle {
+  height: 300px;
+  padding: 15px;
+}
+.scrollYStyle .scrollView {
+  width: 100%;
+}
