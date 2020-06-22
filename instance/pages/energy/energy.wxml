@@ -1,60 +1,67 @@
 <!--pages/energy/energy.wxml-->
 <text>小程序开发</text>
 <swiper class="binner" indicator-dots="true" autoplay circular="true" previous-margin="20" next-margin="20">
-  <swiper-item>
-    <image mode="widthFix" src="http://shp.qpic.cn/ishow/2735052109/1590023036_84828260_14837_sProdImgNo_2.jpg/0"></image>
-  </swiper-item>
-    <swiper-item>
-    <image mode="widthFix" src="http://shp.qpic.cn/ishow/2735031110/1583893705_84828260_20058_sProdImgNo_8.jpg/0"></image>
-  </swiper-item>
-      <swiper-item>
-    <image mode="widthFix" src="http://shp.qpic.cn/ishow/2735012115/1579591872_84828260_17614_sProdImgNo_8.jpg/0"></image>
-  </swiper-item>
+	<swiper-item>
+		<image mode="widthFix" src="http://shp.qpic.cn/ishow/2735012115/1579591872_84828260_17614_sProdImgNo_8.jpg/0"></image>
+	</swiper-item>
+	<swiper-item>
+		<image mode="widthFix" src="http://shp.qpic.cn/ishow/2735012115/1579592728_84828260_26798_sProdImgNo_8.jpg/0"></image>
+	</swiper-item>
+	<swiper-item>
+		<image mode="widthFix" src="http://shp.qpic.cn/ishow/2735012115/1579592560_84828260_28538_sProdImgNo_8.jpg/0"></image>
+	</swiper-item>
+	<swiper-item>
+		<image mode="widthFix" src="http://shp.qpic.cn/ishow/2735012115/1579592407_84828260_28115_sProdImgNo_8.jpg/0"></image>
+	</swiper-item>
+	<swiper-item>
+		<image mode="widthFix" src="http://shp.qpic.cn/ishow/2735012115/1579592032_84828260_30952_sProdImgNo_8.jpg/0"></image>
+	</swiper-item>
 </swiper>
+
 <view class="wrap" hover-class="wrapHover">点击样式</view>
 <view class="stopProgation" hover-stop-propagation>
-  <view>冒泡测试</view>
+	<view>冒泡测试</view>
 </view>
 <view class="textStyle">
-  <text decode>情深一往付琵琶&nbsp;</text>
-  <text space="ensp">精灵无忧隔云涯    \n</text>
-  <text>因剑而生 无人敢倾轧</text>
+	<text decode>情深一往付琵琶&nbsp;</text>
+	<text space="ensp">精灵无忧隔云涯    \n</text>
+	<text>因剑而生 无人敢倾轧</text>
 </view>
 <view>
-  <text>导航</text>
-  <navigator url="/pages/index/index" open-type="reLaunch">home</navigator>
-  <navigator url="/pages/dhive/dhive" open-type="redirect">dhive</navigator>
+	<text>导航</text>
+	<navigator url="/pages/index/index" open-type="reLaunch">home</navigator>
+	<navigator url="/pages/dhive/dhive" open-type="redirect">dhive</navigator>
 </view>
 
 <scroll-view scroll-x scroll-left="150px">
- <view class="scrollStyle">
-  <view class="scrollView">
-    <image mode="widthFix" src="http://shp.qpic.cn/ishow/2735052109/1590023036_84828260_14837_sProdImgNo_2.jpg/0"></image>
-  </view>
-  <view class="scrollView">
-    <image mode="widthFix" src="http://shp.qpic.cn/ishow/2735042809/1588039188_84828260_15570_sProdImgNo_7.jpg/0"></image>
-  </view>
-  <view class="scrollView">
-    <image src="http://shp.qpic.cn/ishow/2735032409/1585014369_84828260_11705_sProdImgNo_7.jpg/0"></image>
-  </view>
- </view>
+	<view class="scrollStyle">
+		<view class="scrollView">
+			<image mode="widthFix" src="http://shp.qpic.cn/ishow/2735052109/1590023036_84828260_14837_sProdImgNo_2.jpg/0"></image>
+		</view>
+		<view class="scrollView">
+			<image mode="widthFix" src="http://shp.qpic.cn/ishow/2735042809/1588039188_84828260_15570_sProdImgNo_7.jpg/0"></image>
+		</view>
+		<view class="scrollView">
+			<image src="http://shp.qpic.cn/ishow/2735032409/1585014369_84828260_11705_sProdImgNo_7.jpg/0"></image>
+		</view>
+	</view>
 </scroll-view>
 
 <scroll-view scroll-y scroll-top="100px">
-  <view class="scrollYStyle">
-   <view class="scrollView">
-    <image mode="widthFix" src="http://shp.qpic.cn/ishow/2735052109/1590023036_84828260_14837_sProdImgNo_2.jpg/0"></image>
-  </view>
-  <view class="scrollView">
-    <image mode="widthFix" src="http://shp.qpic.cn/ishow/2735042809/1588039188_84828260_15570_sProdImgNo_7.jpg/0"></image>
-  </view>
-  <view class="scrollView">
-    <image src="http://shp.qpic.cn/ishow/2735032409/1585014369_84828260_11705_sProdImgNo_7.jpg/0"></image>
-  </view>
-  </view>
+	<view class="scrollYStyle">
+		<view class="scrollView">
+			<image mode="widthFix" src="http://shp.qpic.cn/ishow/2735052109/1590023036_84828260_14837_sProdImgNo_2.jpg/0"></image>
+		</view>
+		<view class="scrollView">
+			<image mode="widthFix" src="http://shp.qpic.cn/ishow/2735042809/1588039188_84828260_15570_sProdImgNo_7.jpg/0"></image>
+		</view>
+		<view class="scrollView">
+			<image src="http://shp.qpic.cn/ishow/2735032409/1585014369_84828260_11705_sProdImgNo_7.jpg/0"></image>
+		</view>
+	</view>
 </scroll-view>
 <view class="imgStyle">
-  <image mode="widthFix" src="http://shp.qpic.cn/ishow/2735052109/1590023036_84828260_14837_sProdImgNo_2.jpg/0"></image>
-  <image mode="heightFix" src="http://shp.qpic.cn/ishow/2735042809/1588039188_84828260_15570_sProdImgNo_7.jpg/0"></image>
-  <image show-menu-by-longpress src="http://shp.qpic.cn/ishow/2735032409/1585014369_84828260_11705_sProdImgNo_7.jpg/0"></image>
+	<image mode="widthFix" src="http://shp.qpic.cn/ishow/2735052109/1590023036_84828260_14837_sProdImgNo_2.jpg/0"></image>
+	<image mode="heightFix" src="http://shp.qpic.cn/ishow/2735042809/1588039188_84828260_15570_sProdImgNo_7.jpg/0"></image>
+	<image show-menu-by-longpress src="http://shp.qpic.cn/ishow/2735032409/1585014369_84828260_11705_sProdImgNo_7.jpg/0"></image>
 </view>
