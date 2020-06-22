@@ -45,3 +45,9 @@ wrap:hover {
 .scrollYStyle .scrollView {
   width: 100%;
 }
+.binner {
+  height: 240px;
+}
+.binner swiper-item{
+  width: 100%;
+}

@@ -1,5 +1,16 @@
 <!--pages/energy/energy.wxml-->
 <text>小程序开发</text>
+<swiper class="binner" indicator-dots="true" autoplay circular="true" previous-margin="20" next-margin="20">
+  <swiper-item>
+    <image mode="widthFix" src="http://shp.qpic.cn/ishow/2735052109/1590023036_84828260_14837_sProdImgNo_2.jpg/0"></image>
+  </swiper-item>
+    <swiper-item>
+    <image mode="widthFix" src="http://shp.qpic.cn/ishow/2735031110/1583893705_84828260_20058_sProdImgNo_8.jpg/0"></image>
+  </swiper-item>
+      <swiper-item>
+    <image mode="widthFix" src="http://shp.qpic.cn/ishow/2735012115/1579591872_84828260_17614_sProdImgNo_8.jpg/0"></image>
+  </swiper-item>
+</swiper>
 <view class="wrap" hover-class="wrapHover">点击样式</view>
 <view class="stopProgation" hover-stop-propagation>
   <view>冒泡测试</view>

@@ -45,3 +45,9 @@
 1. 大部分配合js来使用
 2. 就像是增加了屏内滚动条
 
+## swiper 滑动插件
+1. 微信特有单位 rpx
+2. indicator-dots 是否显示小点
+3. autoplay 自动播放 默认5s
+4. circular 无缝衔接 最后一张播放后转到第一张
+5. previous-margin 间隔
