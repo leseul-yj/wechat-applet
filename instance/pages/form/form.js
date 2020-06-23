@@ -1,4 +1,4 @@
-// pages/dhive/dhive.js
+// pages/form/form.js
 Page({
 
   /**

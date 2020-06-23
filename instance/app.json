@@ -1,9 +1,10 @@
 {
   "pages": [
+    "pages/form/form",
     "pages/energy/energy",
     "pages/logs/logs",
-    "pages/index/index",
-    "pages/dhive/dhive"
+    "pages/index/index"
+    
   ],
   "window": {
     "backgroundTextStyle": "light",

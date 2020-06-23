@@ -51,3 +51,11 @@
 3. autoplay 自动播放 默认5s
 4. circular 无缝衔接 最后一张播放后转到第一张
 5. previous-margin 间隔
+
+## 表单
+1. button 
++ type primary warn default
++ size mini小按钮
+2. input
++ type可以设置键盘类型
++ confirm-type 设置回车键的显示
