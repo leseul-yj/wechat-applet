@@ -1,16 +1,40 @@
 {
   "pages": [
-    "pages/form/form",
     "pages/energy/energy",
+    "pages/form/form",
     "pages/logs/logs",
     "pages/index/index"
-    
   ],
   "window": {
-    "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#5bc49f",
     "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle": "black"
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": true
+  },
+  "tabBar":{
+    "color": "#afafaf",
+    "selectedColor": "#1296db",
+    "backgroundColor": "#fff",
+    "borderColor": "#ffffff",
+    "list":[
+      {
+        "pagePath":"pages/energy/energy",
+        "text": "home",
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/home-active.png"
+      },{
+        "pagePath":"pages/form/form",
+        "text": "表单",
+        "iconPath": "images/energy.png",
+        "selectedIconPath": "images/energy-active.png"
+      },{
+        "pagePath": "pages/logs/logs",
+        "text": "日志",
+        "iconPath": "images/log.png",
+        "selectedIconPath": "images/log-active.png"
+      }
+    ]
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"

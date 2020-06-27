@@ -69,3 +69,9 @@
 + font-size 字体大小
 + border-radius 圆角
 + backgroudColor 背景色
+
+## 框架
+1. enablePullDownRefresh 下拉刷新
+2. tabBar 导航栏
+
+#### tips：app.json中pages提升模块 mac中option + 上箭头可以提升变量
