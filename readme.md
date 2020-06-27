@@ -59,3 +59,13 @@
 2. input
 + type可以设置键盘类型
 + confirm-type 设置回车键的显示
+
+## 其他组件
+1. icon 图标 
++ size 大小
++ type 类型
+2. progress 进度条
++ show-info 显示百分比
++ font-size 字体大小
++ border-radius 圆角
++ backgroudColor 背景色

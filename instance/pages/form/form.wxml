@@ -15,4 +15,11 @@
   <input class="iptUsername" placeholder="请输入邮箱" type="number" confirm-type=""/>
   
   </form>
+  
 </view>
+<view>
+  <icon type="success" size="50"></icon>
+</view>
+<view style="padding:30px">
+  <progress percent="60" show-info font-size="25" border-radus="10px"></progress>
+</view> 
