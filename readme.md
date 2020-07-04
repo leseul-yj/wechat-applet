@@ -75,3 +75,6 @@
 2. tabBar 导航栏
 
 #### tips：app.json中pages提升模块 mac中option + 上箭头可以提升变量
+
+## 单个页面配置
+1. 单页面配置可以写在pages-单个模块-xxx.json
