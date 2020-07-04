@@ -1,5 +1,5 @@
 {
   "usingComponents": {},
   "navigationBarTitleText": "王者荣耀",
-  "enablePullDownRefresh": "true"
+  "enablePullDownRefresh": true
 }

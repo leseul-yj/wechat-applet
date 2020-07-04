@@ -5,7 +5,13 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    title: "小程序开发instance",
+    content: "hover-class",
+    text: {
+      txt1: "情深一往付琵琶&nbsp;",
+      txt2: "精灵无忧隔云涯    \n",
+      txt3: "因剑而生 无人敢倾轧"
+    }
   },
 
   /**

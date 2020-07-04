@@ -1,5 +1,5 @@
 <!--pages/energy/energy.wxml-->
-<text>小程序开发</text>
+<text>{{title}}</text>
 <swiper class="binner" indicator-dots="true" autoplay circular="true" previous-margin="20" next-margin="20">
 	<swiper-item>
 		<image mode="widthFix" src="http://shp.qpic.cn/ishow/2735012115/1579591872_84828260_17614_sProdImgNo_8.jpg/0"></image>
@@ -18,14 +18,14 @@
 	</swiper-item>
 </swiper>
 
-<view class="wrap" hover-class="wrapHover">点击样式</view>
+<view class="wrap" hover-class="wrapHover"> {{content}} </view>
 <view class="stopProgation" hover-stop-propagation>
 	<view>冒泡测试</view>
 </view>
 <view class="textStyle">
-	<text decode>情深一往付琵琶&nbsp;</text>
-	<text space="ensp">精灵无忧隔云涯    \n</text>
-	<text>因剑而生 无人敢倾轧</text>
+	<text decode>{{text.txt1}}</text>
+	<text space="ensp">{{text.txt2}}</text>
+	<text>{{text.txt3}}</text>
 </view>
 <view>
 	<text>导航</text>
