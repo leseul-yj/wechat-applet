@@ -81,3 +81,35 @@
 
 ## 数据绑定
 1. 写在js的data中 在html中用{{}}调用
+```html
+<text>{{title}}</text>
+```
+## wxml - if
+1.  在标签内部写入 wx:if="{{}}"
+```html
+<view>
+	<text >if判断</text>
+	<view wx:if="{{day==1}}">周1</view>
+	<view wx:elif="{{day==2}}">周2</view>
+	<view wx:elif="{{day==3}}">周3</view>
+	<view wx:elif="{{day==4}}">周4</view>
+	<view wx:elif="{{day==5}}">周5</view>
+	<view wx:elif="{{day==6}}">周6</view>
+	<view wx:elif="{{day==7}}">周日</view>
+	<view wx:else>非法日期</view>
+</view>
+```
+2. block空标签 最后不会在页面中显示 可以写入wx:if
+```html
+<view>
+	<view>block</view>
+	<block wx:if="{{false}}">
+		<text>标题1</text>
+		<navigator url="/pages/index/index" open-type="reLaunch">home</navigator>
+	</block>
+	<block wx:else>
+		<text>标题2</text>
+		<navigator url="/pages/dhive/dhive" open-type="redirect">dhive</navigator>
+	</block>
+</view>
+```
