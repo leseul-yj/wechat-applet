@@ -84,7 +84,7 @@
 ```html
 <text>{{title}}</text>
 ```
-## wxml - if
+## wxml - if条件渲染
 1.  在标签内部写入 wx:if="{{}}"
 ```html
 <view>
@@ -111,5 +111,19 @@
 		<text>标题2</text>
 		<navigator url="/pages/dhive/dhive" open-type="redirect">dhive</navigator>
 	</block>
+</view>
+```
+
+## wxml-for列表渲染
+1. 添加编译模式 调试的时候不依靠app.json 自成一个页面
+2. wx:for 两个参数index索引 item数组的内容
+3. x:for-index="i"自定义索引 wx:for-item="{{m}}"自定义item
+```html
+<view wx:for="{{5}}" wx:key="this">{{index}} {{item}} for循环</view>
+
+<view wx:for="{{list}}" wx:for-index="i" wx:for-item="m" wx:key="i">{{i}} {{m.name_zh}}</view>
+
+<view wx:for="{{list}}" wx:key="index">
+	<text>名称：{{item.name_zh}}</text>-<text>年龄：{{item.age}}</text>
 </view>
 ```

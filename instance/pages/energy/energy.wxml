@@ -28,15 +28,15 @@
 	<text>{{text.txt3}}</text>
 </view>
 <view>
-<view>block</view>
-<block wx:if="{{false}}">
-	<text>标题1</text>
-	<navigator url="/pages/index/index" open-type="reLaunch">home</navigator>
-</block>
-<block wx:else>
-	<text>标题2</text>
-	<navigator url="/pages/dhive/dhive" open-type="redirect">dhive</navigator>
-</block>
+	<view>block</view>
+	<block wx:if="{{false}}">
+		<text>标题1</text>
+		<navigator url="/pages/index/index" open-type="reLaunch">home</navigator>
+	</block>
+	<block wx:else>
+		<text>标题2</text>
+		<navigator url="/pages/dhive/dhive" open-type="redirect">dhive</navigator>
+	</block>
 </view>
 <view>
 	<text >if判断</text>

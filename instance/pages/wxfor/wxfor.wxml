@@ -1,0 +1,7 @@
+<!--pages/wxfor/wxfor.wxml-->
+<view wx:for="{{5}}" wx:key="this">{{index}} {{item}} for循环</view>
+
+<view wx:for="{{list}}" wx:for-index="i" wx:for-item="m" wx:key="i">{{i}} {{m.name_zh}}</view>
+
+<view wx:for="{{list}}" wx:key="index"><text>名称：{{item.name_zh}}</text>-<text>年龄：{{item.age}}</text> </view>
+

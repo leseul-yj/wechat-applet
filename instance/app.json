@@ -3,7 +3,9 @@
     "pages/energy/energy",
     "pages/form/form",
     "pages/logs/logs",
-    "pages/index/index"
+    "pages/index/index",
+    "pages/wxfor/wxfor"
+
   ],
   "window": {
     "backgroundTextStyle": "dark",
