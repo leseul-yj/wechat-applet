@@ -127,3 +127,22 @@
 	<text>名称：{{item.name_zh}}</text>-<text>年龄：{{item.age}}</text>
 </view>
 ```
+
+## 生命周期
+1. onload 页面加载完成
+2. onReady 页面初次渲染完成
+
+## 事件
+1. tap相当于click
+2. 事件绑定 bindtap 传递数据使用dataset 可以传递json结构
+``` html
+<view wx:for="{{list}}" wx:key="index" bindtap="myclick" data-item="{{item}}">
+	<text>名称：{{item.name_zh}}</text>-<text>年龄：{{item.age}}</text>
+</view>
+```
+```js 写在Page里面
+ myclick(e){
+    console.log("点击了",e)
+  },
+
+```
