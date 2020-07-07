@@ -135,6 +135,7 @@
 ## 事件
 1. tap相当于click
 2. 事件绑定 bindtap 传递数据使用dataset 可以传递json结构
+3. this.setData 更改data里面的数据
 ``` html
 <view wx:for="{{list}}" wx:key="index" bindtap="myclick" data-item="{{item}}">
 	<text>名称：{{item.name_zh}}</text>-<text>年龄：{{item.age}}</text>
@@ -146,3 +147,6 @@
   },
 
 ```
+
+## api
+1. 获取系统信息 wx.getSystemInfoSync()

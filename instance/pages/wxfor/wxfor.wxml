@@ -3,8 +3,8 @@
 
 <view wx:for="{{list}}" wx:for-index="i" wx:for-item="m" wx:key="i">{{i}} {{m.name_zh}}</view>
 
-<view wx:for="{{list}}" wx:key="index" bindtap="myclick" data-item="{{item}}">
+<view wx:for="{{list}}" wx:key="index" data-item="{{item}}">
 	<text>名称：{{item.name_zh}}</text>-<text>年龄：{{item.age}}</text>
 </view>
 
-<button type="primary">添加</button>
+<button type="primary" bindtap="myclick">添加</button>

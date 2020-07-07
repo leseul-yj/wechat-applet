@@ -5,7 +5,18 @@ Page({
    * 页面的初始数据
    */
   myclick(e){
-    console.log("点击了",e)
+    console.log("点击了",e);
+    var arr = this.data.list;
+    arr.push({
+      "district_name": "出租(III)",
+      "name_zh": "展想广场",
+      "name_en": "Welland Building",
+      "area": "Area (5)",
+      "age": 10
+    })
+    this.setData({
+      list: arr
+    })
   },
   data: {
     list: [{
@@ -95,7 +106,19 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    console.log("onLoad")
+    console.log("onLoad");
+    console.log(wx.getSystemInfoSync());
+    // laoding
+    wx.showLoading({
+      title: "数据加载中。。。。"
+    });
+    setTimeout(res=>{
+      wx.hideLoading();
+    },2000);
+    // 1.5秒后消失
+    wx.showToast({
+      title: 'success',
+    })
   },
 
   /**
