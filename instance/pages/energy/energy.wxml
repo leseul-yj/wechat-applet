@@ -30,12 +30,19 @@
 <view>
 	<view>block</view>
 	<block wx:if="{{false}}">
-		<text>标题1</text>
-		<navigator url="/pages/index/index" open-type="reLaunch">home</navigator>
+		<text>wxfor循环</text>
+		<navigator url="/pages/index/index" open-type="reLaunch">wxfor循环</navigator>
 	</block>
 	<block wx:else>
-		<text>标题2</text>
+		<text>dhive</text>
 		<navigator url="/pages/dhive/dhive" open-type="redirect">dhive</navigator>
+	</block>
+	<block>
+    <text>回到tabBar设置navigator中open-type设置</text>
+		<navigator url="/pages/form/form" open-type="switchTab">表单</navigator>
+	</block>
+	<block>
+	<button type="primary" bindtap="btnToForm">跳转到日志</button>
 	</block>
 </view>
 <view>

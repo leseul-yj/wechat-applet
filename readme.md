@@ -150,3 +150,20 @@
 
 ## api
 1. 获取系统信息 wx.getSystemInfoSync()
+
+## api路由
+1. navigator 不能跳转已经在tabBar存在的页面 如果想要跳转，需要open-type设置switchTab
+``` html
+<navigator url="/pages/form/form" open-type="switchTab">表单</navigator>
+```
+2. 用js来调用 可以用switchTab方法  也可以用reLaunch方法，reLaunch方法可以携带参数以及回掉
+``` js
+  btnToForm(e){
+    // wx.navigateTo({
+    //   url: '/pages/logs/logs',
+    // });
+    wx.switchTab({
+      url: '/pages/logs/logs',
+    })
+  },
+``` 

@@ -14,7 +14,21 @@ Page({
     },
     day: 8
   },
-
+  btnToForm(e){
+    // wx.navigateTo({
+    //   url: '/pages/logs/logs',
+    // });
+    // wx.switchTab({
+    //   url: '/pages/logs/logs',
+    // });
+    wx.reLaunch({
+      url: '/pages/logs/logs?from=energy',
+      success:(res)=>{
+        console.log(res)
+      }
+    });
+    
+  },
   /**
    * 生命周期函数--监听页面加载
    */
