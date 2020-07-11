@@ -12,9 +12,10 @@ Page({
       txt2: "精灵无忧隔云涯    \n",
       txt3: "因剑而生 无人敢倾轧"
     },
-    day: 8
+    day: 8,
+    requestData: []
   },
-  btnToForm(e){
+  btnToForm(e) {
     // wx.navigateTo({
     //   url: '/pages/logs/logs',
     // });
@@ -23,11 +24,11 @@ Page({
     // });
     wx.reLaunch({
       url: '/pages/logs/logs?from=energy',
-      success:(res)=>{
+      success: (res) => {
         console.log(res)
       }
     });
-    
+
   },
   /**
    * 生命周期函数--监听页面加载
@@ -35,8 +36,10 @@ Page({
   onLoad: function (options) {
     wx.request({
       url: 'http://jsonplaceholder.typicode.com/posts',
-      success: res=>{
-        console.log(res)
+      success: res => {
+        this.setData({
+          requestData: res.data
+        })
       }
     })
   },

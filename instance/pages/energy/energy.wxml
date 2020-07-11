@@ -18,6 +18,14 @@
 	</swiper-item>
 </swiper>
 
+<view>
+  <view>request请求</view>
+	<view wx:for="{{requestData}}" wx:key="index">
+		<text>{{item.title}}</text>
+		<text>{{item.body}}</text>
+	</view>
+</view>
+
 <view class="wrap" hover-class="wrapHover"> {{content}} </view>
 <view class="stopProgation" hover-stop-propagation>
 	<view>冒泡测试</view>

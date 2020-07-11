@@ -58,15 +58,7 @@
 		},
 		"miniprogram": {
 			"current": -1,
-			"list": [
-				{
-					"id": 0,
-					"name": "wxfor测试",
-					"pathName": "pages/wxfor/wxfor",
-					"query": "",
-					"scene": null
-				}
-			]
+			"list": []
 		}
 	}
 }
