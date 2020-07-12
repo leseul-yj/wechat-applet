@@ -170,4 +170,14 @@
 
 ## wx.request
 1. onLoad中请求
+``` js
+    wx.request({
+      url: 'http://jsonplaceholder.typicode.com/posts',
+      success: res => {
+        this.setData({
+          requestData: res.data
+        })
+      }
+    })
 
+```
