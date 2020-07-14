@@ -3,3 +3,9 @@
   height: 270rpx;
   border: 1px solid red;
 }
+
+.binnerItem {
+  background-image: url("https://cdn-photos.zanadu.cn/resources/zanadu/page/7/photo_7_7_958.jpg!1920x630?v=1594606072");
+  width: 1100px;
+  height: 352px;
+}

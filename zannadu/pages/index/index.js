@@ -5,8 +5,16 @@ Page({
    */
   data: {
     binnerList:[{
-      url: "https://zanadu.cn/landing/139.html?utm_source=zanadu_desktop_home_slideshow&utm_campaign=2020_summer&utm_medium=banner&utm_term=&utm_content=summer"
-    },{}]
+      url: "https://cdn-photos.zanadu.cn/resources/zanadu/page/7/photo_7_7_958.jpg!1920x630?v=1594606072"
+    },{
+      url: "https://cdn-photos.zanadu.cn/resources/zanadu/page/7/photo_7_7_859.jpg!1920x630?v=1579080251"
+    },
+  {
+    url:"https://cdn-photos.zanadu.cn/resources/zanadu/page/7/photo_7_7_785.jpg!1920x630?v=1564366805"
+  },
+{
+  url: "https://cdn-photos.zanadu.cn/resources/zanadu/page/7/photo_7_7_917.jpg!1920x630?v=1590392005"
+}]
   },
 
   /**

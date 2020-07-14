@@ -1,2 +1,6 @@
 
-<view class="binner">赞那度</view>
+<view class="binner">
+  <view wx:for="{{binnerList}}" wx:key="index">
+    <image src="{{item.url}}"></image>
+  </view>
+</view>
