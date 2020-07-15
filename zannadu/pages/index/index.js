@@ -14,7 +14,8 @@ Page({
   },
 {
   url: "https://cdn-photos.zanadu.cn/resources/zanadu/page/7/photo_7_7_917.jpg!1920x630?v=1590392005"
-}]
+},
+]
   },
 
   /**

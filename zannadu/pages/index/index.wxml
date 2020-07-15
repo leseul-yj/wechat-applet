@@ -1,6 +1,8 @@
-
 <view class="binner">
-  <view wx:for="{{binnerList}}" wx:key="index">
-    <image src="{{item.url}}"></image>
-  </view>
+	<swiper indicator-dots="true" indicator-color="rgba(255, 255, 255,0.5)" indicator-active-color="#fff" autoplay="true" circular="true" previous-margin="20" next-margin="20">
+		<swiper-item wx:for="{{binnerList}}" wx:key="index">
+			<image mode="HeightFix" src="{{item.url}}"></image>
+		</swiper-item>
+	</swiper>
+
 </view>
