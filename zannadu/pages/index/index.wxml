@@ -12,10 +12,10 @@
   <view>预定行程</view>
   <view class="itinerary_nav">
     <view class="itinerary-item" wx:for="{{itineraryList}}" wx:key="index">
-    <navigator>
-      <image src="{{item.url}}"></image>
-      <view>{{item.title}}</view>
-    </navigator>
+      <navigator>
+        <view class="itinerary_icon"></view>
+        <view>{{item.title}}</view>
+      </navigator>
     </view>
   </view>
 </view>

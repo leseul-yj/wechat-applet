@@ -8,3 +8,13 @@ swiper-item {
   height: 100%;
   border-radius: 10rpx;
 }
+.itinerary_nav{
+  display: flex;
+}
+.itinerary_item {
+  width: 25%;
+  text-align: center;
+}
+.itinerary_icon {
+  background: url("../../images/square.jpg");
+}

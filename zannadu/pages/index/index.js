@@ -14,7 +14,7 @@ Page({
       url: "https://cdn-photos.zanadu.cn/resources/zanadu/page/7/photo_7_7_917.jpg!1920x630?v=1590392005"
     }],
     itineraryList: [{
-      url: "https://cdn-img.zanadu.cn/assets/9c31fce6/public/images/channel/square.jpg",
+      url: "",
       title: "探索世界"
     }, {
       url: "",
