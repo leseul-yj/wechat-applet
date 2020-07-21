@@ -21,3 +21,8 @@ swiper-item {
   height: 64px;
   border-radius: 50%;
 }
+.txtTitle {
+  height: 50rpx;
+  font-size: 20px;
+  padding: 10px;
+}

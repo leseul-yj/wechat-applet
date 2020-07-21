@@ -23,16 +23,16 @@ Page({
       url: "./../../images/icon_1.jpeg",
       title: "轻奢小团"
     }, {
-      url: "",
+      url: "./../../images/icon_1.jpeg",
       title: "大航海时代"
     }, {
-      url: "",
+      url: "./../../images/icon_1.jpeg",
       title: "精品别墅"
     }, {
-      url: "",
+      url: "./../../images/icon_1.jpeg",
       title: "国内短假"
     }, {
-      url: "",
+      url: "./../../images/icon_1.jpeg",
       title: "私人定制"
     }]
   },

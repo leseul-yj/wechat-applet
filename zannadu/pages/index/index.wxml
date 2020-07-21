@@ -9,11 +9,11 @@
 
 <!-- 预定行程 -->
 <view class="itinerary">
-  <view>预定行程</view>
+  <view class="txtTitle">预定行程</view>
   <view class="itinerary_nav">
-    <view class="itinerary-item" wx:for="{{itineraryList}}" wx:key="index">
+    <view class="itinerary_item" wx:for="{{itineraryList}}" wx:key="index">
       <navigator>
-        <image class="itinerary_icon" src="{{item.url}}"></image>
+        <image class="itinerary_icon" src="{{item.url}}" mode="HeightFix"></image>
         <view>{{item.title}}</view>
       </navigator>
     </view>
