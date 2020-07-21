@@ -14,13 +14,13 @@ Page({
       url: "https://cdn-photos.zanadu.cn/resources/zanadu/page/7/photo_7_7_917.jpg!1920x630?v=1590392005"
     }],
     itineraryList: [{
-      url: "",
+      url: "./../../images/icon_1.jpeg",
       title: "探索世界"
     }, {
-      url: "",
+      url: "./../../images/icon_1.jpeg",
       title: "海外自由行"
     }, {
-      url: "",
+      url: "./../../images/icon_1.jpeg",
       title: "轻奢小团"
     }, {
       url: "",

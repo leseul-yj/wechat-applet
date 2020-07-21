@@ -13,7 +13,7 @@
   <view class="itinerary_nav">
     <view class="itinerary-item" wx:for="{{itineraryList}}" wx:key="index">
       <navigator>
-        <view class="itinerary_icon"></view>
+        <image class="itinerary_icon" src="{{item.url}}"></image>
         <view>{{item.title}}</view>
       </navigator>
     </view>

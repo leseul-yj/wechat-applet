@@ -10,11 +10,14 @@ swiper-item {
 }
 .itinerary_nav{
   display: flex;
+  flex-wrap: wrap;
 }
 .itinerary_item {
   width: 25%;
   text-align: center;
 }
 .itinerary_icon {
-  background: url("../../images/square.jpg");
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
 }
