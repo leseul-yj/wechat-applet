@@ -19,3 +19,7 @@
     </view>
   </view>
 </view>
+<!-- 限时活动 -->
+<view>
+<view class="txtTitle">限时活动</view>
+</view>

@@ -34,6 +34,9 @@ Page({
     }, {
       url: "./../../images/icon_1.jpeg",
       title: "私人定制"
+    }, {
+      url: "./../../images/icon_1.jpeg",
+      title: "精选酒店"
     }]
   },
 
