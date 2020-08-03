@@ -35,3 +35,34 @@
 		<view>重换心生之旅，静修疗愈 乐享生活</view>
 	</view>
 </view>
+
+<!-- 推荐主题 -->
+<view>
+	<view class="txtTitle">推荐主题</view>
+	<view>
+		<view class="topItem">
+			<view class="item">
+				<image></image>
+				<view>都市逃逸</view>
+			</view>
+			<view>
+				<image></image>
+				<view>宜家欢乐多</view>
+			</view>
+		</view>
+		<view class="topItem">
+			<view class="item">
+				<image></image>
+				<view>浪漫假日</view>
+			</view>
+			<view class="item">
+				<image></image>
+				<view>美酒美食</view>
+			</view>
+			<view class="item">
+				<image></image>
+				<view>动物野趣</view>
+			</view>
+		</view>
+	</view>
+</view>
