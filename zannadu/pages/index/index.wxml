@@ -9,17 +9,29 @@
 
 <!-- 预定行程 -->
 <view class="itinerary">
-  <view class="txtTitle">预定行程</view>
-  <view class="itinerary_nav">
-    <view class="itinerary_item" wx:for="{{itineraryList}}" wx:key="index">
-      <navigator>
-        <image class="itinerary_icon" src="{{item.url}}" mode="HeightFix"></image>
-        <view>{{item.title}}</view>
-      </navigator>
-    </view>
-  </view>
+	<view class="txtTitle">预定行程</view>
+	<view class="itinerary_nav">
+		<view class="itinerary_item" wx:for="{{itineraryList}}" wx:key="index">
+			<navigator>
+				<image class="itinerary_icon" src="{{item.url}}" mode="HeightFix"></image>
+				<view>{{item.title}}</view>
+			</navigator>
+		</view>
+	</view>
 </view>
 <!-- 限时活动 -->
 <view>
-<view class="txtTitle">限时活动</view>
+	<view class="txtTitle">限时活动</view>
+	<view class="limitItem">
+		<view>
+			<image mode="HeightFix" src="https://cdn-photos.zanadu.cn/resources/zanadu/page/7/photo_7_7_958.jpg!1920x630?v=1594606072"></image>
+		</view>
+		<view>暑期大放假，欢乐玩一夏</view>
+	</view>
+	<view class="limitItem">
+		<view>
+			<image mode="HeightFix" src="https://cdn-photos.zanadu.cn/resources/zanadu/page/7/photo_7_7_958.jpg!1920x630?v=1594606072"></image>
+		</view>
+		<view>重换心生之旅，静修疗愈 乐享生活</view>
+	</view>
 </view>
