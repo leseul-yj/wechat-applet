@@ -42,25 +42,25 @@
 	<view>
 		<view class="topItem">
 			<view class="item">
-				<image></image>
-				<view>都市逃逸</view>
+				<image mode="widthFix" src="https://cdn-photos.zanadu.cn/resources/zanadu/bundle/340/key3_3405_bundle.jpg!320x240?v=1576486381"></image>
+				<view>最美江浙</view>
 			</view>
 			<view>
-				<image></image>
-				<view>宜家欢乐多</view>
+				<image mode="widthFix" src="https://cdn-photos.zanadu.cn/resources/zanadu/bundle/436/key2_4363_bundle.jpg!660x240?v=1590141621?v=1594182810?v=1594187000"></image>
+				<view>海滩度假</view>
 			</view>
 		</view>
 		<view class="topItem">
 			<view class="item">
-				<image></image>
+				<image mode="widthFix" src="https://cdn-photos.zanadu.cn/resources/zanadu/bundle/439/key3_4392_bundle.jpg!320x240?v=1587635711?v=1589879552?v=1595325008"></image>
 				<view>浪漫假日</view>
 			</view>
 			<view class="item">
-				<image></image>
+				<image mode="widthFix" src="https://cdn-photos.zanadu.cn/resources/zanadu/hotel/197/key3_1978.jpg!320x240?v=1494314298"></image>
 				<view>美酒美食</view>
 			</view>
 			<view class="item">
-				<image></image>
+				<image mode="widthFix" src="https://cdn-photos.zanadu.cn/resources/zanadu/bundle/98/key2_986_bundle.jpg!660x240"></image>
 				<view>动物野趣</view>
 			</view>
 		</view>
