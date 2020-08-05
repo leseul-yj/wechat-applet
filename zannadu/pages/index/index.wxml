@@ -24,13 +24,13 @@
 	<view class="txtTitle">限时活动</view>
 	<view class="limitItem">
 		<view>
-			<image mode="HeightFix" src="https://cdn-photos.zanadu.cn/resources/zanadu/page/7/photo_7_7_958.jpg!1920x630?v=1594606072"></image>
+			<image mode="widthFix" src="https://cdn-photos.zanadu.cn/resources/zanadu/page/7/photo_7_7_958.jpg!1920x630?v=1594606072"></image>
 		</view>
 		<view>暑期大放假，欢乐玩一夏</view>
 	</view>
 	<view class="limitItem">
 		<view>
-			<image mode="HeightFix" src="https://cdn-photos.zanadu.cn/resources/zanadu/page/7/photo_7_7_958.jpg!1920x630?v=1594606072"></image>
+			<image mode="widthFix" src="https://cdn-photos.zanadu.cn/resources/zanadu/page/7/photo_7_7_958.jpg!1920x630?v=1594606072"></image>
 		</view>
 		<view>重换心生之旅，静修疗愈 乐享生活</view>
 	</view>
@@ -45,7 +45,7 @@
 				<image mode="widthFix" src="https://cdn-photos.zanadu.cn/resources/zanadu/bundle/340/key3_3405_bundle.jpg!320x240?v=1576486381"></image>
 				<view>最美江浙</view>
 			</view>
-			<view>
+			<view class="item" style="width:60%">
 				<image mode="widthFix" src="https://cdn-photos.zanadu.cn/resources/zanadu/bundle/436/key2_4363_bundle.jpg!660x240?v=1590141621?v=1594182810?v=1594187000"></image>
 				<view>海滩度假</view>
 			</view>
@@ -56,12 +56,12 @@
 				<view>浪漫假日</view>
 			</view>
 			<view class="item">
-				<image mode="widthFix" src="https://cdn-photos.zanadu.cn/resources/zanadu/hotel/197/key3_1978.jpg!320x240?v=1494314298"></image>
-				<view>美酒美食</view>
+				<image mode="widthFix" src="https://cdn-photos.zanadu.cn/resources/zanadu/bundle/321/key3_3214_bundle.jpg!320x240?v=1589866733"></image>
+				<view>老宅新生</view>
 			</view>
 			<view class="item">
-				<image mode="widthFix" src="https://cdn-photos.zanadu.cn/resources/zanadu/bundle/98/key2_986_bundle.jpg!660x240"></image>
-				<view>动物野趣</view>
+				<image mode="widthFix" src="https://cdn-photos.zanadu.cn/resources/zanadu/bundle/286/key3_2864_bundle.jpg!320x240?v=1519790830"></image>
+				<view>彩云之南</view>
 			</view>
 		</view>
 	</view>

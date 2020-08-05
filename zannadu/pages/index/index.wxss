@@ -1,26 +1,31 @@
 .binner {
   width: 750rpx;
 }
-swiper-item {
-}
-.binner image{
+
+swiper-item {}
+
+.binner image {
   width: 100%;
   height: 100%;
   border-radius: 10rpx;
 }
-.itinerary_nav{
+
+.itinerary_nav {
   display: flex;
   flex-wrap: wrap;
 }
+
 .itinerary_item {
   width: 25%;
   text-align: center;
 }
+
 .itinerary_icon {
   width: 64px;
   height: 64px;
   border-radius: 50%;
 }
+
 .txtTitle {
   height: 50rpx;
   font-size: 20px;
@@ -28,7 +33,8 @@ swiper-item {
   position: relative;
   padding-left: 40rpx;
 }
-.txtTitle::before{
+
+.txtTitle::before {
   position: absolute;
   left: 10rpx;
   top: 30rpx;
@@ -37,9 +43,27 @@ swiper-item {
   width: 10rpx;
   background: burlywood;
 }
-.topItem{
-  display: flex;
+
+.limitItem {
+  width: 100%;
+  padding: 20rpx;
 }
-.topItem .item{
-  width: 33%;
+.limitItem image{
+  width: 100%;
+}
+.topItem {
+  display: flex;
+  padding: 20rpx;
+}
+
+.topItem .item {
+  width: 30%;
+  margin-right: 20rpx;
+}
+
+.topItem .item image {
+  width: 100%
+}
+.topItem .item:last-child {
+  margin-right: 0;
 }
