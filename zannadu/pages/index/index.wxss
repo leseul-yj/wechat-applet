@@ -45,7 +45,7 @@ swiper-item {}
 }
 
 .limitItem {
-  width: 100%;
+  width: calc(100% - 40rpx);
   padding: 20rpx;
 }
 .limitItem image{
@@ -57,7 +57,7 @@ swiper-item {}
 }
 
 .topItem .item {
-  width: 30%;
+  width: calc(33.3% - 20rpx);
   margin-right: 20rpx;
 }
 
