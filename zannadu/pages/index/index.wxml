@@ -23,11 +23,11 @@
 <view>
 	<view class="txtTitle">限时活动</view>
 	<view class="limitItem">
-			<image mode="widthFix" src="https://cdn-photos.zanadu.cn/resources/zanadu/page/7/photo_7_7_958.jpg!1920x630?v=1594606072"></image>
+		<image mode="widthFix" src="https://cdn-photos.zanadu.cn/resources/zanadu/page/7/photo_7_7_958.jpg!1920x630?v=1594606072"></image>
 		<view>暑期大放假，欢乐玩一夏</view>
 	</view>
 	<view class="limitItem">
-			<image mode="widthFix" src="https://cdn-photos.zanadu.cn/resources/zanadu/page/7/photo_7_7_958.jpg!1920x630?v=1594606072"></image>
+		<image mode="widthFix" src="https://cdn-photos.zanadu.cn/resources/zanadu/page/7/photo_7_7_958.jpg!1920x630?v=1594606072"></image>
 		<view>重换心生之旅，静修疗愈 乐享生活</view>
 	</view>
 </view>
@@ -51,17 +51,41 @@
 				<image mode="widthFix" src="https://cdn-photos.zanadu.cn/resources/zanadu/bundle/439/key3_4392_bundle.jpg!320x240?v=1587635711?v=1589879552?v=1595325008"></image>
 				<view>浪漫假日</view>
 			</view>
-      <view style="width:66.6%;display:flex;">
-			<view class="item" style="width:calc(50% - 10rpx)">
-				<image mode="widthFix" src="https://cdn-photos.zanadu.cn/resources/zanadu/bundle/321/key3_3214_bundle.jpg!320x240?v=1589866733"></image>
-				<view>老宅新生</view>
+			<view style="width:66.6%;display:flex;">
+				<view class="item" style="width:calc(50% - 10rpx)">
+					<image mode="widthFix" src="https://cdn-photos.zanadu.cn/resources/zanadu/bundle/321/key3_3214_bundle.jpg!320x240?v=1589866733"></image>
+					<view>老宅新生</view>
+				</view>
+				<view class="item" style="width:calc(50% - 10rpx)">
+					<image mode="widthFix" src="https://cdn-photos.zanadu.cn/resources/zanadu/bundle/286/key3_2864_bundle.jpg!320x240?v=1519790830"></image>
+					<view>彩云之南</view>
+				</view>
 			</view>
-			<view class="item" style="width:calc(50% - 10rpx)">
-				<image mode="widthFix" src="https://cdn-photos.zanadu.cn/resources/zanadu/bundle/286/key3_2864_bundle.jpg!320x240?v=1519790830"></image>
-				<view>彩云之南</view>
-			</view>
-      </view>
 
 		</view>
 	</view>
+</view>
+
+<!-- 热门产品 -->
+<view>
+	<view class="txtTitle">热门产品</view>
+	<view>
+    <view class="hotProductionItem">
+      <image src="https://cdn-photos.zanadu.cn/resources/zanadu/bundle/321/key3_3214_bundle.jpg!320x240?v=1589866733"></image>
+      <view>
+        <view> <text>限时特惠</text> <text>独家专享</text> </view>
+        <view>【至臻精选】马尔代夫COMO 玛丽富士度假村6天4晚静谧遁隐之旅</view>
+        <view>
+        <text>¥1，499</text>
+        </view>
+      </view>
+    </view>
+    <view class="hotProductionItem"></view>
+  </view>
+</view>
+
+<!-- 猜你喜欢 -->
+<view>
+	<view class="txtTitle">热门产品</view>
+	<view></view>
 </view>

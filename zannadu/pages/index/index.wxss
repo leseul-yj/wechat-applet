@@ -67,3 +67,7 @@ swiper-item {}
 .topItem .item:last-child {
   margin-right: 0;
 }
+
+.hotProductionItem{
+  display: flex;
+}
